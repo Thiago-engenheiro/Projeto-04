@@ -1,0 +1,47 @@
+/*  importacoes de estilo  */
+/* _______________________________________________________________________________________ */
+
+/*  importacoes de estilo do header  */
+@import url("./Header/cabecalho.css");
+/*  importacoes de estilo do main  */
+
+/*  importacoes de estilo do footer */
+
+
+/*  importacoes de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* Todo o conteudo da pagina  */
+/* _______________________________________________________________________________________ */
+
+/* Variaveis globais */
+
+:root {
+    
+    /*  cores que serão usadas no elementos da pagina  */
+    
+    --cor-elementos-01: #E5F1FF;
+    --cor-elementos-02: #ECECEC;
+    --cor-elementos-03: #FFFFFF;
+    --cor-elementos-04: #D9D9D9;
+
+    /*  cores que serão usadas apenas no textos da pagina  */
+  
+    
+    /*  cores que serão usadas no textos e elementos da pagina  */
+    
+    --cor-compartilhada-01: #444444;
+    --cor-compartilhada-02: #154580;
+    
+    /* fontes  */
+    --fonte-principal: 'Roboto', sans-serif;
+
+}
+
+.pagina__inteira {
+
+    background-color: var(--cor-elementos-01);
+    color: var(--cor-compartilhada-01);
+
+}

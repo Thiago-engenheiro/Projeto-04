@@ -1,0 +1,68 @@
+.cabecalho {
+
+    background-color: var(--cor-elementos-03);
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 30px 7px 30px;
+    align-items: center;
+
+}
+
+.cabecalho__parte2 {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cabecalho__parte2__caixa__toda {
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.cabecalho__parte2__caixa__icone__do__busca {
+
+    background-color: var(--cor-elementos-02);
+    border: 1px solid var(--cor-elementos-04);
+    border-left: none;
+    padding: 8.5px 15px 8.5px 15px;
+    
+}
+
+.cabecalho__parte3 {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.cabecalho__parte3__icones {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.cabecalho__caixa__de__pesquisa {
+
+    border: 1px solid var(--cor-elementos-04);
+    padding: 10px 5px 10px 10px;
+    width: 20vw;
+    
+}
+
+.cabecalho__caixa__de__pesquisa::placeholder {
+
+    background: url("../../Imagens/Imagens-codigo/Header/keyboard.png") no-repeat;
+    background-position: right;
+
+
+
+}
+
