@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding: 7px 30px 7px 30px;
     align-items: center;
+    position: relative;
 
 }
 
@@ -53,7 +54,7 @@
 
     border: 1px solid var(--cor-elementos-04);
     padding: 10px 5px 10px 10px;
-    width: 20vw;
+    width: 25vw;
     
 }
 
@@ -62,7 +63,123 @@
     background: url("../../Imagens/Imagens-codigo/Header/keyboard.png") no-repeat;
     background-position: right;
 
+}
 
+.cabecalho__parte3__icone__do__X , .checkbox__botao , .checkbox__botao__2 , .cabecalho__parte3__caixa__de__pesquisa {
+
+    display: none;
 
 }
+
+@media (max-width: 834px ) {
+
+    .cabecalho__parte3 {
+
+        gap: 20px;
+    
+    }
+
+}   
+
+@media (min-width: 650px ) {
+
+    .continer__display__none__tablet {
+
+        display: none;
+
+    }
+
+
+}  
+
+@media (max-width: 650px ) {
+
+    .cabecalho {
+
+        padding: 20px 30px 20px 30px;
+    
+    }
+
+    .continer__display__none__celular {
+
+        display: none;
+
+    }
+
+    .cabecalho__parte1__icone {
+
+        width: 120px;
+
+    }
+
+    .cabecalho__parte3__icones__icone {
+
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .cabecalho__parte3__caixa__de__pesquisa {
+
+        display: none;
+    
+    }
+
+    .checkbox__botao:checked ~ .cabecalho__parte3__caixa__de__pesquisa {
+
+        display: block;
+        position: fixed;
+        padding: 20px 0 20px 0;
+        width: 98vw;
+        right: 1%; 
+        z-index: 1;
+     
+    }
+
+    .checkbox__botao:checked ~ .cabecalho__parte3__icone__do__X {
+     
+        display: block;
+        position: fixed;
+        left: 90%; 
+        z-index: 2;
+    
+        
+
+    }
+
+    .cabecalho__parte3__caixa__de__pesquisa {
+
+        border: 1px solid var(--cor-elementos-04);
+        padding: 10px 5px 10px 10px;
+        width: 25vw;
+        
+    }
+
+    .continer__X {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .checkbox__botao__2:checked ~ .cabecalho__parte3__caixa__de__pesquisa {
+        
+        display: none;
+        
+    }
+
+    .checkbox__botao__2:checked ~ .cabecalho__parte3__icone__do__X {
+
+        display: none;
+    
+    }
+
+
+
+
+    
+
+    
+
+}   
 

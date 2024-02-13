@@ -4,7 +4,8 @@
 /*  importacoes de estilo do header  */
 @import url("./Header/cabecalho.css");
 /*  importacoes de estilo do main  */
-
+@import url("./main/menu__da_pagina.css");
+@import url("./main/menu_videos.css");
 /*  importacoes de estilo do footer */
 
 
@@ -25,6 +26,8 @@
     --cor-elementos-02: #ECECEC;
     --cor-elementos-03: #FFFFFF;
     --cor-elementos-04: #D9D9D9;
+    --cor-elementos-05: #3970BE;
+
 
     /*  cores que serão usadas apenas no textos da pagina  */
   
@@ -33,6 +36,7 @@
     
     --cor-compartilhada-01: #444444;
     --cor-compartilhada-02: #154580;
+    
     
     /* fontes  */
     --fonte-principal: 'Roboto', sans-serif;
@@ -43,5 +47,6 @@
 
     background-color: var(--cor-elementos-01);
     color: var(--cor-compartilhada-01);
+    font-family: var(--fonte-principal)
 
 }
