@@ -1,0 +1,41 @@
+.conteudo__rodape {
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--cor-elementos-03);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.rodape__lista__lista__titulo {
+
+    margin: 0px 0px 20px 0px ; 
+    color: var(--cor-elementos-05);
+    font-size: 0.9em;
+    font-weight: 700;
+    
+}
+
+.rodape__lista__lista__paragrafo {
+
+    margin: 8px 0px 8px 0px ;
+    color: var(--cor-compartilhada-01);
+    font-size: 0.9em;
+    font-weight: 400;
+
+}
+
+@media (max-width: 834px ) {
+
+    .conteudo__rodape {
+
+        gap: 60px;
+    
+    } 
+
+}
+    
+
+

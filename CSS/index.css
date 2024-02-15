@@ -6,7 +6,10 @@
 /*  importacoes de estilo do main  */
 @import url("./main/menu__da_pagina.css");
 @import url("./main/menu_videos.css");
+@import url("./main/conteudo__rodape.css");
+@import url("./main/videos.css");
 /*  importacoes de estilo do footer */
+@import url("./footer/rodape.css");
 
 
 /*  importacoes de fontes */

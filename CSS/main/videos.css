@@ -1,0 +1,34 @@
+.conteudo__videos {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 40px;
+
+
+}
+
+.videos__item {
+
+    height: 320px;
+    width: 350px;
+    flex-grow: 1;
+
+}
+
+.descricao-video__todo {
+
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.descricao-video  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+

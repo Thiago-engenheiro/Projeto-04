@@ -5,7 +5,12 @@
     justify-content: space-between;
     padding: 7px 30px 7px 30px;
     align-items: center;
-    position: relative;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+
 
 }
 
@@ -79,7 +84,9 @@
     
     }
 
+
 }   
+ 
 
 @media (min-width: 650px ) {
 
